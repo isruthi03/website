@@ -1,0 +1,84 @@
+.pic{
+    background: url("https://live.staticflickr.com/8516/8352081610_50102466e3_b.jpg");
+    height: 550px;
+    width: 1270px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    transition: background 1s linear;
+}
+.pic:hover{
+    
+    height: 550px;
+    width: 1270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: picture 7s infinite;
+}
+@keyframes picture{
+    0%{
+        background: url("https://live.staticflickr.com/8516/8352081610_50102466e3_b.jpg");
+        height: 550px;
+        width: 1270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    25%{
+        background: url("https://api.time.com/wp-content/uploads/2023/03/Worlds-Greatest-Places-St-Moritz-Switzerland.jpg");
+        height: 550px;
+        width: 1270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background: url("./field-g6ec43a83d_1280.jpg");
+        height: 550px;
+        width: 1270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    75%{
+        background: url("./mountains-gf21592a88_1280.jpg");
+        height: 550px;
+        width: 1270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }    
+    100%{
+        background: url("https://live.staticflickr.com/8516/8352081610_50102466e3_b.jpg");
+        height: 550px;
+        width: 1270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.txt{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 25%;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.head{
+    display: flex;
+    height: 35px;
+    float: right;
+    font-size: xx-large;
+    color: white;
+}
+nav{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    margin-top: 5px;
+    height: 30px;
+}
